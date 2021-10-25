@@ -1,0 +1,36 @@
+.time {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  justify-content: center;
+  background-color: white;
+  background: rgba(51, 170, 51, 1);
+}
+
+/* .days {
+  padding: 20px 0px;
+}
+
+.hours {
+  padding: 20px 0px;
+}
+
+.minutes {
+  padding: 20px 0px;
+}
+
+.seconds {
+  padding: 20px 0px;
+} */
+
+h4 {
+  font-size: 45px;
+  justify-items: center;
+  margin: 0px 60px;
+  font-weight: 800;
+}
+
+span {
+  font-size: 100px;
+  font-weight: 800;
+}
