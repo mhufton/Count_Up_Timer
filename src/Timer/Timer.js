@@ -50,17 +50,14 @@ export default function Timer({ time }) {
             <h4>Days</h4>
             <span className="day">{days}</span>
           </div>
-          {/* <span className="colon">:</span> */}
           <div className="hours">
             <h4>Hours</h4>
             <span>{hour}</span>
           </div>
-          {/* <span className="colon">:</span> */}
           <div className="minutes">
             <h4>Minutes</h4>
             <span>{minute} </span>
           </div>
-          {/* <span className="colon">:</span> */}
           <div className="seconds">
             <h4>Seconds</h4>
             <span>{second}</span>
@@ -69,10 +66,17 @@ export default function Timer({ time }) {
       </div>
       <div>
         <div className="buttons">
-          <button onClick={() => setIsActive(!isActive)} className="start">
-            {isActive ? "Pause" : "Start"}
+          <button 
+            className="startBtn"
+            onClick={() => setIsActive(!isActive)} className="start">
+              {isActive ? "Pause" : "Start"}
           </button>
-          <button onClick={() => null} className="reset">Reset</button>
+          <button 
+            className="editBtn"
+            onClick={() => null} className="reset" 
+            >
+              Reset
+            </button>
         </div>
       </div>
     </div>

@@ -26,19 +26,18 @@ function App() {
   return (
     <div className="App">
       <div className="form-div">
-      <p>Input starting time:</p>
+        <p>Input starting time:</p>
         <form onSubmit={submitHandler} className="form">
-          <label className="days">
+          <label className="app-days">
             <p>Days:</p>
             <input
               type="text"
               name="days"
               value={time.days}
               onChange={changeHandler}
-              maxLength="2"
-              max="31" />
+              maxLength="2" />
           </label>
-          <label className="hours">
+          <label className="app-hours">
             <p>Hours:</p>
             <input
               type="text"
@@ -48,7 +47,7 @@ function App() {
               maxLength="2"
               max="24" />
           </label>
-          <label className="minutes">
+          <label className="app-minutes">
             <p>Minutes:</p>
             <input
               type="text"

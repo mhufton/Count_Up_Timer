@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@icons/material": "^0.4.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "lodash": "^4.17.21",
+    "material-colors": "^1.2.6",
+    "normalize.css": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.3.2",
+    "react-color": "^2.19.3",
+    "react-dom": "^16.3.2",
     "react-scripts": "4.0.3",
     "react-timer-hook": "^3.0.5",
+    "reactcss": "^1.2.3",
+    "tinycolor2": "^1.4.2",
     "use-timer": "^2.0.1",
     "web-vitals": "^1.1.2"
   },
@@ -25,16 +33,17 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": "last 2 versions",
+  "devDependencies": {
+    "postcss-normalize": "^10.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack-dev-server": "^3.1.4",
+    "webpack": "^4.8.3"
+  },
+  "css.lint.unknownAtRules": "ignore"
 }

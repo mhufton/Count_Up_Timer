@@ -1,36 +1,42 @@
-.time {
-  display: flex;
-  flex-direction: row;
-  margin: 25px;
-  justify-content: center;
-  background-color: white;
+.container {
+  padding-top: 15px;
   background: rgba(51, 170, 51, 1);
 }
 
-/* .days {
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.days, .hours, .minutes, .seconds {
   padding: 20px 0px;
 }
 
-.hours {
-  padding: 20px 0px;
+.buttons {
+  padding: 15px 5px 0px 5px;
+  transform: scale(1.5);
+  margin: 0px 5px 0px 5px; 
 }
 
-.minutes {
-  padding: 20px 0px;
-}
-
-.seconds {
-  padding: 20px 0px;
-} */
 
 h4 {
   font-size: 45px;
+  color: white;
   justify-items: center;
-  margin: 0px 60px;
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
   font-weight: 800;
+  filter: drop-shadow(2px 2px 2px black);
 }
 
 span {
   font-size: 100px;
   font-weight: 800;
+}
+
+span {
+  color: white;
+  filter: drop-shadow(2px 2px 2px black);
 }

@@ -6,18 +6,28 @@
   min-width: 1000px;
 }
 
-.form-div {
-  flex: 1;
-}
-
 .form {
   display: flex;
-  margin: 0px 25px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
+.app-days, .app-hours, .app-minutes {
+  padding: 0px 5px 0px 5px;
+}
 
 p {
   font-size: 30px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+.form-div {
+  padding-bottom: 15px;
+}
+
+.app-colorPicker {
+  padding-top: 35px;
 }
