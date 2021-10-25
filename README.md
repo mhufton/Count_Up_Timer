@@ -1,7 +1,7 @@
 # Count Up Timer with custom start time
 
 ## Overview
-I developed this count up timer after looking for existing ones which had the ability to customize the start time. 
+Start up timers exist but none (or hard to find) with a customizable start time. No frills. Plug in your info and go. 
 
 ### Enter Customizable Start Time
 
